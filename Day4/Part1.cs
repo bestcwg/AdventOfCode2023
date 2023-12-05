@@ -15,6 +15,6 @@ public class Part1 : Solve
             select split[0]
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Where(myNumbers.Contains)
-                .Aggregate(0, (current, subLine) => current == 0 ? 1 : current * 2)).Sum();
+                .Aggregate(0, (current, _) => current == 0 ? 1 : current * 2)).Sum();
     }
 }
