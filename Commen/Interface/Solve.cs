@@ -1,6 +1,6 @@
 namespace Commen.Interface;
 
-public interface Solve
+public interface ISolve<out TReturn>
 {
-    public int Solve();
+    public TReturn Solve();
 }

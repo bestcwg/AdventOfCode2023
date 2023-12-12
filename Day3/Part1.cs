@@ -2,7 +2,7 @@ using Commen.Interface;
 
 namespace Day3;
 
-public class Part1 : Solve
+public class Part1 : ISolve<int>
 {
     private List<char> _validCharacters = new()
     {

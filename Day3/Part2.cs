@@ -4,7 +4,7 @@ using Commen.Interface;
 
 namespace Day3;
 
-public class Part2 : Solve
+public class Part2 : ISolve<int>
 {
     private readonly List<char> _validCharacters = new()
     {

@@ -3,7 +3,7 @@ using Commen.Interface;
 
 namespace Day2;
 
-public class Part2 : Solve
+public class Part2 : ISolve<int>
 {
     public int Solve()
     {
